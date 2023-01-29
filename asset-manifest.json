@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-classcomponent-design/static/css/main.7b99ff25.css",
-    "main.js": "/react-classcomponent-design/static/js/main.b9d864c1.js",
-    "static/js/196.e883e143.chunk.js": "/react-classcomponent-design/static/js/196.e883e143.chunk.js",
+    "main.js": "/react-classcomponent-design/static/js/main.f713e74e.js",
+    "static/js/196.dc40c862.chunk.js": "/react-classcomponent-design/static/js/196.dc40c862.chunk.js",
     "index.html": "/react-classcomponent-design/index.html",
     "main.7b99ff25.css.map": "/react-classcomponent-design/static/css/main.7b99ff25.css.map",
-    "main.b9d864c1.js.map": "/react-classcomponent-design/static/js/main.b9d864c1.js.map",
-    "196.e883e143.chunk.js.map": "/react-classcomponent-design/static/js/196.e883e143.chunk.js.map"
+    "main.f713e74e.js.map": "/react-classcomponent-design/static/js/main.f713e74e.js.map",
+    "196.dc40c862.chunk.js.map": "/react-classcomponent-design/static/js/196.dc40c862.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b99ff25.css",
-    "static/js/main.b9d864c1.js"
+    "static/js/main.f713e74e.js"
   ]
 }
