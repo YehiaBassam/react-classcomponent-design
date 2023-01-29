@@ -6,7 +6,7 @@ export default class ProductImages extends Component {
     return (
       <div>
         <div className='position-relative'>
-          <img src='images/product.png' className='img-fluid' alt='product' style={{borderRadius:"10px"}} />
+          <img src='images/newproduct.jpg' className='img-fluid' alt='newproduct' style={{borderRadius:"10px"}} />
           <div className='bg-light img-fly px-4 py-2 flex-center' style={{boxShadow: '0px 0px 3px #00000040',borderRadius:'5px'}}>
             <img src="images/360.svg" className="imfg-fluid" alt="product" style={{width:'35px'}}/>
           </div>
