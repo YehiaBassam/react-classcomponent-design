@@ -13,13 +13,13 @@ export default class SimilarProducts extends Component {
             <ProductCard img="boy"/>
           </div>
           <div className='col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0'>
-            <ProductCard img="boy2"/>
+            <ProductCard img="boy-2"/>
           </div>
           <div className='col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0'>
             <ProductCard img="boy"/>
           </div>
           <div className='col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0'>
-            <ProductCard img="boy2"/>
+            <ProductCard img="boy-2"/>
           </div>
         </div>
       </div>
