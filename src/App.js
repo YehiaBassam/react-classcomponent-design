@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import TopHeader from './components/TopHeader.jsx';
+import MainHeader from './components/MainHeader.jsx';
+import MainFooter from './components/MainFooter.jsx';
+import ProductShow from './components/Products/ProductShow.jsx';
+import SimilarProducts from './components/Products/SimilarProducts.jsx';
+import BreadCrumbs from './components/BreadCrumbs.jsx';
+import Navbar from './components/Navbar.jsx';
+import Cart from './components/Products/Cart.jsx';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    isCartOpen: false,
+    quantity: 0
+  };
+
+  openCartHandler = () => {
+    this.setState({isCartOpen: true});
+  };
+  closeCartHandler = () => {
+    this.setState({isCartOpen: false});
+  };
+  changeQuantity = (quantity) => {
+    this.setState({quantity});
+  };
+
+  render() {  
+    return (
+      <>
+        <TopHeader />
+        <MainHeader openCart={this.openCartHandler} cartQuantity={this.state.quantity}/>
+        <Cart show={this.state.isCartOpen} hide={this.closeCartHandler} cartQuantity={this.state.quantity}/>
+        <Navbar />
+        <BreadCrumbs />
+        <ProductShow addToCart={this.changeQuantity}/>
+        <SimilarProducts />
+        <MainFooter />
+      </>
+    )
+  }
 }
 
 export default App;

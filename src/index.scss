@@ -1,0 +1,122 @@
+// General
+$primary-color: #fff200;
+$secondary-color: #542e90;
+
+.text-primary-color{
+  color: $primary-color !important;
+}
+.bg-primary-color{
+  background-color: $primary-color !important;
+}
+.text-secondary-color{
+  color: $secondary-color !important;
+}
+.bg-secondary-color{
+  background-color: $secondary-color !important;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+// Main Header
+.search-bar input{
+  border-left: none;
+  border-radius: 24px;
+}
+.search-bar span{
+  border: 1px solid #c5cacf;
+  border-right: none;
+  border-radius: 24px;
+  width: 50px;
+}
+
+.cart-fly{
+  position: relative;
+  top: -8px;
+  right: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fffcd8;
+}
+
+// Breadcrumbs
+.breadcrumbs{
+  border-bottom: 2px solid #e3e3e3;
+}
+
+// Product Card
+.product-card{
+  position: relative;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #00000026;
+  transition:all .3s;
+  
+  
+  &:hover{
+    box-shadow: 0px 0px 30px #00000026;
+  }
+}
+.img-fly{
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  width: 30px;
+}
+
+// Product Show
+.size{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #D9D9D9;
+  color: $secondary-color;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all .3s;
+
+  &:hover{
+    background: #ECECEC;
+  }
+}
+
+.qty{
+  width: 200px;
+  background:#F5F5F5;
+  border-radius: 24px ;
+
+  .qty-btn{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+  }
+}
+
+// Cart 
+.product-cart{
+  border: 0.75px solid #ECECEC;
+  border-radius: 7px;
+
+  img{
+    height: 104px;
+    border-radius: 5px;
+  }
+}
+
+// Footer
+.email-btn{
+  border-radius: 24px !important;
+  position: relative;
+  right: 123px;
+  top: 2px;
+  z-index: 9999;
+}
