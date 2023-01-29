@@ -7,7 +7,7 @@ export default class ProductCard extends Component {
       { this.props.img === "boy" ? 
         <img src="images/boy.png" className="card-img-top" alt="product" />
       :
-        <img src="images/boy-2.png" className="card-img-top" alt="product" />
+        <img src="images/product.png" className="card-img-top" alt="product" />
       }
 
         <img src="images/360.svg" className="img-fluid img-fly" alt="product" />

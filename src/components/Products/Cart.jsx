@@ -36,7 +36,7 @@ export default class Cart extends Component {
             <div>
               <h6 className='fw-bold'>Cart Summary</h6>
               <div className='product-cart d-flex p-1 my-3'>
-                <img src='images/boy-2.png' alt='product' />
+                <img src='images/product.png' alt='product' />
                 <div className='ps-3 w-100'>
                   <p className='mb-1 fw-bold'>Lorem ipsum dolor sit amet,<br /> consecte adipiscing elit.</p>
                   <p className='mb-1'>Quantity: { this.state.quantity }</p>
